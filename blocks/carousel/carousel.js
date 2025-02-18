@@ -21,17 +21,6 @@ export default function decorate(block) {
   const dotElems = block.querySelectorAll('.carousel-dot');
   const prevButton = block.querySelector('.carousel-prev');
   const nextButton = block.querySelector('.carousel-next');
-  const featuredText = block.querySelectorAll('h2');
-  const h2Length = featuredText.length;
-
-  /**for (let i = 0; i < h2Length; i++) {
-    if (featuredText[i]) {
-      const carouselContent = document.createElement('div');
-      carouselContent.classList.add('carousel-content');
-      var parentDiv = featuredText.parentNode;
-      carouselContent.appendChild(parentDiv);
-    }
-  }**/
 
   function updateCarousel(newSlide) {
     slideElems[currentSlide].classList.remove('active');

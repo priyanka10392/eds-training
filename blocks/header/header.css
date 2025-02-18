@@ -22,14 +22,14 @@ header .nav-brand {
   flex: 0 1 auto;
   font-size: 28px;
   font-weight: bold;
-  color: #000; /* Ensure the brand color is black */
-  font-family: 'Arial Black', sans-serif; /* Match the font styling */
+  color: #000;
+  font-family: 'Arial Black', sans-serif;
 }
 
 header .nav-sections {
   flex: 1 1 auto;
   display: flex;
-  justify-content: flex-end; /* Align sections to the right */
+  justify-content: flex-end;
 }
 
 header .nav-sections ul {
@@ -40,11 +40,11 @@ header .nav-sections ul {
 }
 
 header .nav-sections ul li {
-  font-size: 12px; /* Reduce font size of nav links */
+  font-size: 12px;
   font-weight: 500;
-  padding: 15px 20px; /* Increase padding to create larger rectangular area */
-  transition: background-color 0.3s ease; /* Add transition effect */
-  font-family: Arial, sans-serif; /* Match the font styling */
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
 }
 
 header .nav-sections ul li a {
@@ -53,14 +53,14 @@ header .nav-sections ul li a {
 }
 
 header .nav-sections ul li:hover {
-  background-color: yellow; /* Background color on hover */
+  background-color: yellow;
 }
 
 header .nav-tools {
   flex: 0 1 auto;
   display: flex;
   align-items: center;
-  padding-left: 32px; /* Add padding between nav links and search bar */
+  padding-left: 32px;
 }
 
 header .nav-tools .search {

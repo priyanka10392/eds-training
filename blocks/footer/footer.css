@@ -1,12 +1,12 @@
 footer {
-  background-color: black; /* Set background color to black */
-  color: white; /* Set text color to white */
+  background-color: black;
+  color: white;
   font-size: var(--body-font-size-xs);
 }
 
 .footer-content {
   max-width: 1200px;
-  margin: auto 24px; /* Add left and right margins */
+  margin: auto 24px;
   padding: 40px 0 24px;
 }
 
@@ -36,13 +36,13 @@ footer {
 }
 
 .footer-social a {
-  background-color: lightgrey; /* Set background color to grey for social links */
+  background-color: lightgrey;
   padding: 5px;
   text-decoration: none;
 }
 
 .footer-bottom a {
-  color: white; /* Set link color to white */
+  color: white;
 }
 
 .footer-top nav ul li a {
@@ -51,11 +51,11 @@ footer {
 }
 
 .footer-bottom a:hover {
-  color: lightgray; /* Set link hover color to light gray */
+  color: lightgray;
 }
 
 .footer-top nav ul li a:hover {
-  text-decoration: underline; /* Underline links on hover */
+  text-decoration: underline;
 }
 
 .footer-social {
@@ -81,9 +81,9 @@ footer {
   height: 24px;
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   .footer-content {
-    margin: auto 32px; /* Update left and right margins for larger screens */
+    margin: auto 32px;
     padding: 40px 0 24px;
   }
 }

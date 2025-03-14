@@ -20,7 +20,7 @@ export default async function decorate(block) {
   const sections = document.createElement('div');
   sections.className = 'nav-sections';
   const sectionsList = document.createElement('ul');
-  const sectionNames = ['Magazine', 'Adventures', 'FAQs', 'About Us'];
+  const sectionNames = ['Magazine', 'Adventures', 'FAQs', 'About Us', 'Register'];
   sectionNames.forEach((name) => {
     const listItem = document.createElement('li');
     const link = document.createElement('a');
